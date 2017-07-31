@@ -1,0 +1,14 @@
+.myDialog{
+    -fx-background-color:#FFFFFF;
+}
+.button{
+	-fx-border-radius: 0px;
+	-fx-background-color: #0070BE;
+	-fx-text-fill: #FFFFFF;
+}
+.button:pressed{
+	-fx-background-color: #005895;
+}
+.label{
+	-fx-text-fill: #0070BE;
+}

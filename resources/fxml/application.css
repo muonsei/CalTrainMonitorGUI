@@ -1,0 +1,64 @@
+#backgroundAnchor {
+	-fx-background-color: #FFFFFF;
+}
+
+#trainStatusScrollPane {
+	-fx-background-color: #FFFFFF;
+}
+
+#stationStatusScrollPane {
+	-fx-background-color: #FFFFFF;
+}
+
+
+.trainLabels {
+	-fx-border-radius: 25%;
+	-fx-background-color: #005895;
+	-fx-text-fill: #FFFFFF;
+}
+
+.label {
+	-fx-text-fill: #0070BE;
+}
+
+.button {
+	-fx-border-radius: 0px;
+	-fx-background-color: #0070BE;
+	-fx-text-fill: #FFFFFF;
+}
+
+.button:pressed {
+	-fx-background-color: #005895;
+}
+
+.text-field {
+	-fx-border-width: 1px 1px 2px 1px;
+	-fx-border-color: #FFFFFF #FFFFFF #0070BE #FFFFFF;
+	-fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+}
+
+.combo-box {
+	-fx-border-width: 0px;
+	-fx-border-radius: 0px 0px 0px 0px;
+	-fx-background-color: #0070BE;
+	-fx-focus-color: -fx-control-inner-background;
+    -fx-faint-focus-color: -fx-control-inner-background;
+    -fx-background-insets: 0;
+}
+
+.combo-box .cell{
+	-fx-border-radius: 0px 0px 0px 0px;
+	-fx-background-color: #0070BE;
+	-fx-text-fill: #FFFFFF;
+}
+
+.combo-box .cell:hover{
+	-fx-background-color: #005895;
+}
+
+.statusLabels {
+	-fx-font-weight: bold;
+}
